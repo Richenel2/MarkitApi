@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'django_filters',
     'api',
 ]
-STATIC_URL = 'static/'
 MIDDLEWARE = [
  'django.middleware.security.SecurityMiddleware',
  'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -143,3 +142,5 @@ REST_FRAMEWORK = {
 }
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+STATIC_URL = '/static/'
