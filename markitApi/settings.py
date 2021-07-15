@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django_filters',
     'api',
 ]
-
+STATIC_URL = 'static/'
 MIDDLEWARE = [
  'django.middleware.security.SecurityMiddleware',
  'whitenoise.middleware.WhiteNoiseMiddleware',
