@@ -121,7 +121,6 @@ ptyprocess==0.7.0
 py2exe==0.10.2.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-PyAudio @ file:///C:/Users/the%20Richenel/Desktop/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 PyAutoGUI==0.9.52
 PyBluez==0.23
 pycodestyle==2.7.0
